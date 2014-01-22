@@ -1,6 +1,6 @@
 ---
 title:        Greetings
-catergories:  General
+catergory:  General
 permalink: /:catergories/:year:month:day-:title
 ---
 **Greetings**
