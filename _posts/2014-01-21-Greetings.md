@@ -1,5 +1,6 @@
 ---
-title:        Greetings
+title:               Greetings
+layout:              posts
 ---
 **Greetings**
 
