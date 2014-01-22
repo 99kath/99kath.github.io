@@ -1,5 +1,7 @@
 ---
-title: Greetings
+title:        Greetings
+catergories:  General
+permalink: /:catergories/:year:month:day-:title
 ---
 **Greetings**
 
