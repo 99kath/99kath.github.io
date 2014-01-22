@@ -1,6 +1,5 @@
 ---
 title:        Greetings
-catergory:  General
 ---
 **Greetings**
 
