@@ -1,5 +1,6 @@
 ---
 title:        Greetings
+permalink:    /blog/20140121-Greetings.html
 ---
 **Greetings**
 
