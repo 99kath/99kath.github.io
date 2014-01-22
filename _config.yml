@@ -1,4 +1,4 @@
 source: ./
 destination: ./_site
 
-permalink: /:category/:year:month:day-:title
+permalink: /blog/:year:month:day-:title
