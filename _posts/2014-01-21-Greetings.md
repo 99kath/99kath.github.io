@@ -1,7 +1,6 @@
 ---
 title:        Greetings
 catergory:  General
-permalink: /:catergories/:year:month:day-:title
 ---
 **Greetings**
 
