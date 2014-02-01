@@ -1,0 +1,43 @@
+
+/***************************/
+/******* Top Level *********/
+/***************************/
+
+body {
+    font-family: "Heveltica", sans-serif, serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/*h1, h2, h3, p, */
+
+/***************************/
+/***** Written Content *****/
+/***************************/
+
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+/***************************/
+/********* Links ***********/
+/***************************/
+
+a {
+    color: #;
+
+}
+
+a:hover, a:visited {
+    color: #;
+}
