@@ -2,4 +2,4 @@ name: 99kath
 source: ./
 destination: ./_site
 
-permalink: /blog/:year:month:day-:title
+permalink: /blog/:year:month:day-:title.html
