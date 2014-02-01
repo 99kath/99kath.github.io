@@ -2,7 +2,7 @@
 title:               Greetings
 layout:              posts
 ---
-**Greetings**
+**Okay**
 
 Hello there, jut trying things out.
 
