@@ -1,3 +1,6 @@
+* {
+    border: 1px solid black;
+}
 
 /* * * * * * * * * * *
  * * * Top Level * * *
@@ -8,7 +11,8 @@ body {
     font-size: 12px;
     text-decoration: none;
 
-    width: 70%;
+    width: 500px;
+    height: auto;
     margin:auto;
 }
 
