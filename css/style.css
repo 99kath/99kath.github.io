@@ -1,8 +1,8 @@
 * {
-    border: 1px solid black;
-    margin: 0px; 
-    padding: 0px;
+    text-decoration: none;
+    margin: 0px;
 }
+
 
 /* * * * * * * * * * *
  * * * Top Level * * *
@@ -10,52 +10,68 @@
 
 body {
     font-family: "Heveltica", sans-serif, serif;
-    font-size: 12px;
-    text-decoration: none;
+    font-size: 14px;
 
-    width: 800px;
+
+    width: 45%;
     height: 100%;
-    
-    margin: 0px auto; 
-    padding: 30px 10px;
+    margin: 30px auto; 
 }
 
-
-/* * * * * * * * * *
- * * * Sidebar * * *
- * * * * * * * * * */
-
-.sidebar {
-    width: ;
+article {
+    margin: 10px 5px;
 }
+
 
 /* * * * * * * * * * * * * *
  * * * Written Content * * *
  * * * * * * * * * * * * * */
+h1, h2, h3, h4, h5, h6 {
+    color: #223377;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
 
 h1 {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 32px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
 }
 
 h2 {
+    font-size: 24px;
+}
+
+h3, h4, h5, h6 {
     font-size: 16px;
-    font-weight: bold;
 }
 
-p {
+p, ul, ol {
     text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 2em;
 }
 
-/* * * * * * * * *
- * * * Links * * *
- * * * * * * * * */
+p + ul, ul + p,li p {
+    margin-top: -1.5em;
+}
+
+
+/* * * * * * * * * * * *
+ * * * Links & etc * * *
+ * * * * * * * * * * * */
 
 a {
-    color: #;
-
+    color: #2255aa;
 }
 
 a:hover, a:visited {
-    color: #;
+    color: #3366bb;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
 }
