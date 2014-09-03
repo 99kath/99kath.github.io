@@ -1,16 +1,10 @@
 ---
-title: Home
+title: Links
 layout: posts
 
 ---
 
-這裡是貝克里（Bequri）的個人主頁兼博客。
-
-以下是目前為止的博文：
-
- - [Hello, World!](/blog/20140406-Hello)
-
-在以下站點可以找到我：
+Placeholders
 
  - [Twitter](https://twitter.com/bequri)
  

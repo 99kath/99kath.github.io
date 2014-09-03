@@ -423,48 +423,44 @@ th {
 }
 
 
+
 /*
-==============================================================================
+===============================================================================
     Custom CSS by Bequri
-==============================================================================
+===============================================================================
 */
 
+html {
+       overflow-y: scroll;
+       background-color: 
+}
+
 body {
-    width: 40%;
-    height: 100%;
+    width: 50%;
+    height: 101%;
     margin: 20px auto;
-
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "Hiragino Sans GB",
+                 "Hiragino Kaku Gothic ProN",
+                 sans-serif;
 }
 
-article {
-    padding: 5px;
-}
 
-/**
- * Formatting titles
- */
+/*
+===========================
+    Content in Articles
+===========================
+*/
 
 h1, h2, h3, h4, h5, h6 {
-    color: #223377;
     font-weight: bold;
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
 
-h2 {
-    font-size: 24px;
-    border-bottom: 1px solid #cccccc;
-    padding-left: 5px;
-}
-
-h1 { font-size: 32px; }
-h3, h4, h5, h6 { font-size: 16px; }
-
-
-/**
- * Formatting body text
- */
+h1, h2 { color: #334180; }
+h3, h4 { color: #6170a0; }
+h5, h6 { color: #bfc6e0; }
 
 p, pre, ul, ol {
     text-align: left;
@@ -484,22 +480,106 @@ ul p, ol p {
 }
 
 
-/**
- * Links & etc
- */
+/*
+===================
+    Links & etc
+===================
+*/
 
 a {
-    color: #223377;
-
+    color: #334180;
     text-decoration: none;
 }
 
-a:hover, a:visited {
-    color: #3366bb;
+a:hover {
+    color: #6170a0;
 }
 
 img {
     display: block;
     margin: 0px auto;
     max-width: 100%;
+}
+
+/*
+==================================================
+    Articles, Article Titles and Article Dates
+==================================================
+*/
+
+article {
+    padding: 0.5em;
+}
+
+.article-block {
+  margin-bottom: 15px;
+}
+
+.title-block {
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-align-items: baseline;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -webkit-align-content: space-between;
+    
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 5px;
+}
+
+.date {
+    padding-right: 0.5em;
+}
+
+.article-title {
+    padding-left: 0.5em;
+}
+
+/*
+==============================================
+    Blog Title, Navigation, and Pagination
+==============================================
+*/
+
+#nav {
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-align-items: baseline;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -webkit-align-content: space-between;
+
+    margin-bottom: 5px;
+}
+
+#head-nav {
+    list-style: none;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-shrink: 0;
+}
+
+.menu-items {
+    padding: 0em 0.5em;
+}
+
+.pagination { 
+    /*margin: 0px auto;*/
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: center;
+}
+
+.pagination * {
+  padding: 0em 0.5em;
 }

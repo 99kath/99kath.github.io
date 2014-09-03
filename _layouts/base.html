@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
-<!--
-==============================================================================
-    HEADER
-==============================================================================
--->
-    <head>
-        <title>{{ page.title }}</title>
 
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
+<html lang='zh-cmn'>
+<!--===========================================================================
+    HEAD
+============================================================================-->
+<head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
 
-<!--
-==============================================================================
+<!--===========================================================================
     BODY
-==============================================================================
--->
-    <body>
-        <div id="nav">
-            <h1></h1>
-        </div>
-        <div id="main">{{ content }}</div>
-    </body>
+============================================================================-->
+<body>
+    <div id='nav'>
+        <div id='head-title'><h1><a href='/'>栖伏三街桥下</a></h1></div>
+        <ul id='head-nav'>
+            <li class='menu-items'><a href='/'>Home</a></li>
+            <li class='menu-items'><a href='/about/'>About</a></li>
+            <li class='menu-items'><a href='/archive/'>Archive</a></li>
+            <li class='menu-items'><a href='/links'>Links</a></li>
+        </ul>
+    </div>
+
+    <div id='main'>{{ content }}</div>
+</body>
 </html>
