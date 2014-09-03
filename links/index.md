@@ -4,14 +4,6 @@ layout: posts
 
 ---
 
-Placeholders
+友情鏈接：
 
- - [Twitter](https://twitter.com/bequri)
- 
- - [Pixiv](http://pixiv.me/bequri)
- 
- - [Bangumi](http://bangumi.tv/bequri)
- 
- - [Github](https://github.com/bequri)
-
- - [Douban](http://www.douban.com/people/bequri)
+ - 小寒：[Grub St.](http://www.grubst.me/)

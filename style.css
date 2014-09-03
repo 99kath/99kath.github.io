@@ -432,7 +432,6 @@ th {
 
 html {
        overflow-y: scroll;
-       background-color: 
 }
 
 body {
@@ -440,9 +439,17 @@ body {
     height: 101%;
     margin: 20px auto;
     font-size: 16px;
-    font-family: "Hiragino Sans GB",
+/*    font-family: "Hiragino Sans GB",
                  "Hiragino Kaku Gothic ProN",
                  sans-serif;
+*/
+    font-family: 'Lucida Grande',
+                 'Helvetica',
+                 'Calibri',
+                 sans-serif,
+                 'Hiragino Sans GB', 
+                 'Hiragino Karu Gothic Pro', 'ヒラギノ角ゴ Pro W3'
+                 'Microsoft YaHei', '微软雅黑';
 }
 
 
@@ -533,6 +540,7 @@ article {
 }
 
 .article-title {
+    font-weight: normal;
     padding-left: 0.5em;
 }
 
@@ -552,14 +560,24 @@ article {
     -webkit-align-content: space-between;
 
     margin-bottom: 5px;
+
+    font-family: 'EB Garamond',
+                 'Lucida Grande',
+                 'Helvetica',
+                 'Calibri',
+                 serif,
+                 'Hiragino Mincho Pro', "ヒラギノ明朝 Pro",
+                 'Hiragino Sans GB', 
+                 'Microsoft Yahei','微软雅黑';
 }
+
+#head-title { font-weight: bold; }
 
 #head-nav {
     list-style: none;
     list-style-position: inside;
     margin: 0px;
     padding: 0px;
-
     display: -webkit-flex;
     display: flex;
     
