@@ -439,17 +439,15 @@ body {
     height: 101%;
     margin: 20px auto;
     font-size: 16px;
-/*    font-family: "Hiragino Sans GB",
-                 "Hiragino Kaku Gothic ProN",
-                 sans-serif;
-*/
-    font-family: 'Lucida Grande',
+    font-weight: 300;
+    font-family: 'faricy-new-web',
+                 'Hiragino Sans GB',
+                 'Lucida Grande',
                  'Helvetica',
                  'Calibri',
-                 sans-serif,
-                 'Hiragino Sans GB', 
-                 'Hiragino Karu Gothic Pro', 'ヒラギノ角ゴ Pro W3'
-                 'Microsoft YaHei', '微软雅黑';
+                 'Hiragino Karu Gothic Pro', 'ヒラギノ角ゴ Pro W3',
+                 'Microsoft YaHei', '微软雅黑',
+                 sans-serif;
 }
 
 
@@ -460,26 +458,41 @@ body {
 */
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
 
 h1, h2 { color: #334180; }
 h3, h4 { color: #6170a0; }
-h5, h6 { color: #bfc6e0; }
+h5, h6 {color: #bfc6e0;}
+
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.34em; }
+h4 { font-size: 1.17em; }
+h5 { font-size: 1.10em; }
+h6 { font-size: 1em; }
 
 p, pre, ul, ol {
     text-align: left;
     line-height: 2em;
-    margin-bottom: 1em; 
+    margin-bottom: 1em;
 }
 
-pre {
+pre, blockquote {
     line-height: 1.5em;
-    padding-left: 10px;
+    padding: 0em 2em 0em 1em;
     margin-left: 20px;
     border-left: 3px #cccccc solid;
+}
+
+code {
+    font-family: "fira-mono", monospace;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 20px;
 }
 
 ul p, ol p {
@@ -540,7 +553,6 @@ article {
 }
 
 .article-title {
-    font-weight: normal;
     padding-left: 0.5em;
 }
 
@@ -560,15 +572,6 @@ article {
     -webkit-align-content: space-between;
 
     margin-bottom: 5px;
-
-    font-family: 'EB Garamond',
-                 'Lucida Grande',
-                 'Helvetica',
-                 'Calibri',
-                 serif,
-                 'Hiragino Mincho Pro', "ヒラギノ明朝 Pro",
-                 'Hiragino Sans GB', 
-                 'Microsoft Yahei','微软雅黑';
 }
 
 #head-title { font-weight: bold; }
@@ -590,11 +593,9 @@ article {
 }
 
 .pagination { 
-    /*margin: 0px auto;*/
     width: 100%;
     display: -webkit-flex;
     display: flex;
-
     -webkit-justify-content: center;
 }
 
